@@ -18,11 +18,11 @@ public class Car {
    @NotEmpty
    private String vinNumber;
 
-   public String getData() {
+   public String getVinNumber() {
       return vinNumber;
    }
 
-   public void setData(String data) {
-      this.vinNumber = data;
+   public void setVinNumber(String vinNumber) {
+      this.vinNumber = vinNumber;
    }
 }
